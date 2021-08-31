@@ -1,0 +1,42 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #040714;
+  color: #f9f9f9;
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+/*Large device above 768 pixels */
+@media screen and (min-width: 768px) {
+  body{
+  font-size: 16px;
+  }   
+}
+
+/*phone screen*/
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body{
+  font-size: 15px;
+  }
+}
+
+/*small screens*/
+@media screen and (max-width: 479px) {
+  body{
+  font-size: 14px;
+  }
+}
